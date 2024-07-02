@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7816edca-cbd1-4871-9e7e-2e27ff3c36ba}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{cd8cb6b4-27cd-4fb1-9c4a-99cb4b25275b}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{2a05965a-04d5-4ede-8f8a-0ada8dd2be81}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ChessBoard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HelpDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NetChess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NetChessDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NetChessView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="NetChess.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChessBoard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HelpDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NetChess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NetChessDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NetChessView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\base.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Card_Blank_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Card_Face_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Card_Face_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Diamond_10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Diamond_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Diamond_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Diamond_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Diamond_5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Diamond_6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Diamond_7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Diamond_8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Diamond_9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Diamond_A.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Diamond_J.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Diamond_K.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Diamond_Q.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Flower_10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Flower_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Flower_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Flower_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Flower_5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Flower_6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Flower_7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Flower_8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Flower_9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Flower_A.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Flower_J.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Flower_K.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Flower_Q.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Heart_10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Heart_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Heart_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Heart_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Heart_5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Heart_6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Heart_7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Heart_8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Heart_9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Heart_A.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Heart_J.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Heart_K.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Heart_Q.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\LDAPExplorer.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\NetChess.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\NetChessDoc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Spade_10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Spade_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Spade_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Spade_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Spade_5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Spade_6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Spade_7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Spade_8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Spade_9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Spade_A.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Spade_J.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Spade_K.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Spade_Q.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\NetChess.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="NetChess.ini" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,524 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\NetChess.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\LDAPExplorer.ico"
+IDR_NETCHETYPE          ICON    DISCARDABLE     "res\\NetChessDoc.ico"
+IDI_ICON_MAINFRAME_OPPOSITE ICON    DISCARDABLE     "res\\icon1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDB_BITMAP1_CARD_FACE_1 BITMAP  DISCARDABLE     "Images\\Card_Face_1.bmp"
+IDB_BITMAP_CARD_FACE2   BITMAP  DISCARDABLE     "Images\\Card_Face_2.bmp"
+IDB_BITMAP_DIAMOND_10   BITMAP  DISCARDABLE     "Images\\Diamond_10.bmp"
+IDB_BITMAP_DIAMOND_2    BITMAP  DISCARDABLE     "Images\\Diamond_2.bmp"
+IDB_BITMAP_DIAMOND_3    BITMAP  DISCARDABLE     "Images\\Diamond_3.bmp"
+IDB_BITMAP_DIAMOND_4    BITMAP  DISCARDABLE     "Images\\Diamond_4.bmp"
+IDB_BITMAP_DIAMOND_5    BITMAP  DISCARDABLE     "Images\\Diamond_5.bmp"
+IDB_BITMAP_DIAMOND_Q    BITMAP  DISCARDABLE     "Images\\Diamond_Q.bmp"
+IDB_BITMAP_DIAMOND_7    BITMAP  DISCARDABLE     "Images\\Diamond_7.bmp"
+IDB_BITMAP_DIAMOND_8    BITMAP  DISCARDABLE     "Images\\Diamond_8.bmp"
+IDB_BITMAP_DIAMOND_9    BITMAP  DISCARDABLE     "Images\\Diamond_9.bmp"
+IDB_BITMAP_DIAMOND_A    BITMAP  DISCARDABLE     "Images\\Diamond_A.bmp"
+IDB_BITMAP_DIAMOND_J    BITMAP  DISCARDABLE     "Images\\Diamond_J.bmp"
+IDB_BITMAP_DIAMOND_K    BITMAP  DISCARDABLE     "Images\\Diamond_K.bmp"
+IDB_BITMAP_DIAMOND_6    BITMAP  DISCARDABLE     "Images\\Diamond_6.bmp"
+IDB_BITMAP_FLOWER_Q     BITMAP  DISCARDABLE     "Images\\Flower_Q.bmp"
+IDB_BITMAP_FLOWER_2     BITMAP  DISCARDABLE     "Images\\Flower_2.bmp"
+IDB_BITMAP_FLOWER_3     BITMAP  DISCARDABLE     "Images\\Flower_3.bmp"
+IDB_BITMAP_FLOWER_4     BITMAP  DISCARDABLE     "Images\\Flower_4.bmp"
+IDB_BITMAP_FLOWER_5     BITMAP  DISCARDABLE     "Images\\Flower_5.bmp"
+IDB_BITMAP_FLOWER_6     BITMAP  DISCARDABLE     "Images\\Flower_6.bmp"
+IDB_BITMAP_FLOWER_7     BITMAP  DISCARDABLE     "Images\\Flower_7.bmp"
+IDB_BITMAP_FLOWER_8     BITMAP  DISCARDABLE     "Images\\Flower_8.bmp"
+IDB_BITMAP_FLOWER_9     BITMAP  DISCARDABLE     "Images\\Flower_9.bmp"
+IDB_BITMAP_FLOWER_A     BITMAP  DISCARDABLE     "Images\\Flower_A.bmp"
+IDB_BITMAP_FLOWER_J     BITMAP  DISCARDABLE     "Images\\Flower_J.bmp"
+IDB_BITMAP_FLOWER_K     BITMAP  DISCARDABLE     "Images\\Flower_K.bmp"
+IDB_BITMAP_FLOWER_10    BITMAP  DISCARDABLE     "Images\\Flower_10.bmp"
+IDB_BITMAP_HEART_Q      BITMAP  DISCARDABLE     "Images\\Heart_Q.bmp"
+IDB_BITMAP_HEART_2      BITMAP  DISCARDABLE     "Images\\Heart_2.bmp"
+IDB_BITMAP_HEART_3      BITMAP  DISCARDABLE     "Images\\Heart_3.bmp"
+IDB_BITMAP_HEART_4      BITMAP  DISCARDABLE     "Images\\Heart_4.bmp"
+IDB_BITMAP_HEART_5      BITMAP  DISCARDABLE     "Images\\Heart_5.bmp"
+IDB_BITMAP_HEART_6      BITMAP  DISCARDABLE     "Images\\Heart_6.bmp"
+IDB_BITMAP_HEART_7      BITMAP  DISCARDABLE     "Images\\Heart_7.bmp"
+IDB_BITMAP_HEART_8      BITMAP  DISCARDABLE     "Images\\Heart_8.bmp"
+IDB_BITMAP_HEART_9      BITMAP  DISCARDABLE     "Images\\Heart_9.bmp"
+IDB_BITMAP_HEART_A      BITMAP  DISCARDABLE     "Images\\Heart_A.bmp"
+IDB_BITMAP_HEART_J      BITMAP  DISCARDABLE     "Images\\Heart_J.bmp"
+IDB_BITMAP_HEART_K      BITMAP  DISCARDABLE     "Images\\Heart_K.bmp"
+IDB_BITMAP_HEART_10     BITMAP  DISCARDABLE     "Images\\Heart_10.bmp"
+IDB_BITMAP_SPADE_Q      BITMAP  DISCARDABLE     "Images\\Spade_Q.bmp"
+IDB_BITMAP_SPADE_2      BITMAP  DISCARDABLE     "Images\\Spade_2.bmp"
+IDB_BITMAP_SPADE_3      BITMAP  DISCARDABLE     "Images\\Spade_3.bmp"
+IDB_BITMAP_SPADE_4      BITMAP  DISCARDABLE     "Images\\Spade_4.bmp"
+IDB_BITMAP_SPADE_5      BITMAP  DISCARDABLE     "Images\\Spade_5.bmp"
+IDB_BITMAP_SPADE_6      BITMAP  DISCARDABLE     "Images\\Spade_6.bmp"
+IDB_BITMAP_SPADE_7      BITMAP  DISCARDABLE     "Images\\Spade_7.bmp"
+IDB_BITMAP_SPADE_8      BITMAP  DISCARDABLE     "Images\\Spade_8.bmp"
+IDB_BITMAP_SPADE_9      BITMAP  DISCARDABLE     "Images\\Spade_9.bmp"
+IDB_BITMAP_SPADE_A      BITMAP  DISCARDABLE     "Images\\Spade_A.bmp"
+IDB_BITMAP_SPADE_J      BITMAP  DISCARDABLE     "Images\\Spade_J.bmp"
+IDB_BITMAP_SPADE_K      BITMAP  DISCARDABLE     "Images\\Spade_K.bmp"
+IDB_BITMAP_SPADE_10     BITMAP  DISCARDABLE     "Images\\Spade_10.bmp"
+IDB_BITMAP_CARD_BLANK   BITMAP  DISCARDABLE     "Images\\Card_Blank_2.bmp"
+IDB_BITMAP_BASE         BITMAP  DISCARDABLE     "res\\base.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_VIEW_HIDE
+    BUTTON      ID_APP_ABOUT
+    BUTTON      AFX_ID_PREVIEW_CLOSE
+    BUTTON      AFX_ID_PREVIEW_CLOSE
+    BUTTON      AFX_ID_PREVIEW_CLOSE
+    BUTTON      AFX_ID_PREVIEW_CLOSE
+    BUTTON      AFX_ID_PREVIEW_CLOSE
+    BUTTON      AFX_ID_PREVIEW_CLOSE
+    BUTTON      AFX_ID_PREVIEW_CLOSE
+    BUTTON      AFX_ID_PREVIEW_CLOSE
+    BUTTON      AFX_ID_PREVIEW_CLOSE
+    BUTTON      AFX_ID_PREVIEW_CLOSE
+    BUTTON      AFX_ID_PREVIEW_CLOSE
+    BUTTON      AFX_ID_PREVIEW_CLOSE
+    BUTTON      AFX_ID_PREVIEW_CLOSE
+    BUTTON      AFX_ID_PREVIEW_CLOSE
+    BUTTON      AFX_ID_PREVIEW_CLOSE
+    BUTTON      AFX_ID_PREVIEW_CLOSE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Hide\tCtrl+H",               ID_VIEW_HIDE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About CardMemory...",        ID_APP_ABOUT
+        MENUITEM "&How to play",                ID_HELP_HOWTOPLAY
+    END
+END
+
+IDR_SHELL_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "&Shell"
+    BEGIN
+        MENUITEM "&Close",                      ID_SHELL_CLOSE
+        MENUITEM "&View",                       ID_SHELL_VIEW
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "C",            ID_TOOLS_CLIENT,        VIRTKEY, CONTROL, NOINVERT
+    "D",            ID_TOOLS_DISCONNECT,    VIRTKEY, CONTROL, NOINVERT
+    "E",            ID_TOOLS_SERVER,        VIRTKEY, CONTROL, NOINVERT
+    "F",            ID_EDIT_MOVEFIRST,      VIRTKEY, CONTROL, NOINVERT
+    "F",            ID_FILE_FEED,           VIRTKEY, CONTROL, ALT, NOINVERT
+    "H",            ID_VIEW_HIDE,           VIRTKEY, CONTROL, NOINVERT
+    "I",            ID_VIEW_HISTORY,        VIRTKEY, CONTROL, NOINVERT
+    "L",            ID_VIEW_LOSTPIECES,     VIRTKEY, CONTROL, NOINVERT
+    "L",            ID_TOOLS_LEARN,         VIRTKEY, CONTROL, ALT, NOINVERT
+    "M",            ID_TOOLS_SENDMESSAGE,   VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_EDIT_OPTIONS,        VIRTKEY, CONTROL, NOINVERT
+    "R",            D_EDIT_PROPERTIES,      VIRTKEY, CONTROL, NOINVERT
+    "R",            ID_TOOLS_RESIGN,        VIRTKEY, CONTROL, ALT, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_TOOLS_SHOW,          VIRTKEY, CONTROL, ALT, NOINVERT
+    "V",            ID_EDIT_MOVELAST,       VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "W",            ID_TOOLS_WHITEONTOP,    VIRTKEY, CONTROL, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Y",            ID_EDIT_REDO,           VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 183, 99
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW | WS_EX_CLIENTEDGE
+CAPTION "About CardMemory"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,8,7,20,20
+    LTEXT           "CardMemory Version 1.0",IDC_STATIC,34,10,78,8,
+                    SS_NOPREFIX
+    DEFPUSHBUTTON   "OK",IDOK,126,7,50,14,WS_GROUP
+    LTEXT           "Developed by AVMRAO",IDC_STATIC,34,31,84,8
+    LTEXT           "Send your suggessions or comments to raoavm@yahoo.com",
+                    IDC_STATIC,34,50,123,35
+END
+
+IDD_DIALOG_HELP1 DIALOG DISCARDABLE  0, 0, 282, 177
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "How to play"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,225,156,50,14
+    EDITTEXT        IDC_EDIT1,7,7,268,142,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "NetChess MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "NetChess\0"
+            VALUE "LegalCopyright", "Copyright (C) 2002\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "NetChess.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "NetChess Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 176
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_DIALOG_HELP1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 275
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 170
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDP_SOCKETS_INIT_FAILED "Windows sockets initialization failed."
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "CardMemory by AVM RAO\nNetChess\nNetChe\n\n\nNetChess.Document\nNetChe Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "CardMemory by AVM RAO"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new game\nNew"
+    ID_FILE_OPEN            "Open an existing game\nOpen"
+    ID_FILE_CLOSE           "Close the game\nClose"
+    ID_FILE_SAVE            "Save the playing game\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_HIDE            "Hide the current active window\nHide"
+    ID_EDIT_OPTIONS         "Select board color\nOptions"
+    ID_TOOLS_CLIENT         "Enter Server IP and Port\nClient"
+    ID_TOOLS_SERVER         "Enter Server IP address\nServer"
+    ID_TOOLS_SENDMESSAGE    "Send an instant message\nSend Message"
+    ID_VIEW_NUMBER          "Show or hide board numbers\nNumber"
+    ID_VIEW_LETTER          "show or hide board letters\nLetter"
+    ID_FILE_SAVEHISTORY     "Save History\nSave History"
+    ID_TOOLS_PLAYHISTORY    "Play history\nPlay History"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_HISTORY         "Show history of playing game\nHistory"
+    ID_TOOLS_WHITEONTOP     "Change the piece side\nWhite On Top"
+    ID_EDIT_MOVEFIRST       "Move to Beginning of the game\nMove First"
+    ID_EDIT_MOVELAST        "Move to the End of the game\nMove Last"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_TOOLS_DISCONNECT     "Disconnect from client/server\nDisconnect"
+    ID_EDIT_PROPERTIES      "Displays about the client/server information"
+    ID_TOOLS_RESIGN         "send Drop message\nDrop"
+    ID_TOOLS_DRAW           "Send draw message\nDraw"
+    ID_VIEW_LOSTPIECES      "View Lost Pieces\nLostt Pieces"
+    ID_FILE_FEED            "Feed chess game\nFeed"
+    ID_TOOLS_LEARN          "demonstrates how to play chess\nLearn"
+    ID_EDIT_SETBOARD        "set the chess board manually\nSet Board"
+    ID_TOOLS_SHOW           "Send show message\nShow"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\NetChess.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

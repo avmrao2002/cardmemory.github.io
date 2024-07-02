@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{C9AC1467-C332-4162-B6A3-5E905507777D}</ProjectGuid>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>17.0.34221.43</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Release/NetChess.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Release/NetChess.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>Release/CardMemory.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ProgramDatabaseFile>.\Release/CardMemory.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release/NetChess.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Debug/NetChess.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Debug/NetChess.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>Debug/CardMemory.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/CardMemory.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug/NetChess.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ChessBoard.cpp" />
+    <ClCompile Include="HelpDialog.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="NetChess.cpp" />
+    <ClCompile Include="NetChessDoc.cpp" />
+    <ClCompile Include="NetChessView.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="NetChess.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChessBoard.h" />
+    <ClInclude Include="HelpDialog.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="NetChess.h" />
+    <ClInclude Include="NetChessDoc.h" />
+    <ClInclude Include="NetChessView.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="StdAfx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Images\bitmap1.bmp" />
+    <Image Include="Images\Card_Blank_2.bmp" />
+    <Image Include="Images\Card_Face_1.bmp" />
+    <Image Include="Images\Card_Face_2.bmp" />
+    <Image Include="Images\Diamond_10.bmp" />
+    <Image Include="Images\Diamond_2.bmp" />
+    <Image Include="Images\Diamond_3.bmp" />
+    <Image Include="Images\Diamond_4.bmp" />
+    <Image Include="Images\Diamond_5.bmp" />
+    <Image Include="Images\Diamond_6.bmp" />
+    <Image Include="Images\Diamond_7.bmp" />
+    <Image Include="Images\Diamond_8.bmp" />
+    <Image Include="Images\Diamond_9.bmp" />
+    <Image Include="Images\Diamond_A.bmp" />
+    <Image Include="Images\Diamond_J.bmp" />
+    <Image Include="Images\Diamond_K.bmp" />
+    <Image Include="Images\Diamond_Q.bmp" />
+    <Image Include="Images\Flower_10.bmp" />
+    <Image Include="Images\Flower_2.bmp" />
+    <Image Include="Images\Flower_3.bmp" />
+    <Image Include="Images\Flower_4.bmp" />
+    <Image Include="Images\Flower_5.bmp" />
+    <Image Include="Images\Flower_6.bmp" />
+    <Image Include="Images\Flower_7.bmp" />
+    <Image Include="Images\Flower_8.bmp" />
+    <Image Include="Images\Flower_9.bmp" />
+    <Image Include="Images\Flower_A.bmp" />
+    <Image Include="Images\Flower_J.bmp" />
+    <Image Include="Images\Flower_K.bmp" />
+    <Image Include="Images\Flower_Q.bmp" />
+    <Image Include="Images\Heart_10.bmp" />
+    <Image Include="Images\Heart_2.bmp" />
+    <Image Include="Images\Heart_3.bmp" />
+    <Image Include="Images\Heart_4.bmp" />
+    <Image Include="Images\Heart_5.bmp" />
+    <Image Include="Images\Heart_6.bmp" />
+    <Image Include="Images\Heart_7.bmp" />
+    <Image Include="Images\Heart_8.bmp" />
+    <Image Include="Images\Heart_9.bmp" />
+    <Image Include="Images\Heart_A.bmp" />
+    <Image Include="Images\Heart_J.bmp" />
+    <Image Include="Images\Heart_K.bmp" />
+    <Image Include="Images\Heart_Q.bmp" />
+    <Image Include="Images\Spade_10.bmp" />
+    <Image Include="Images\Spade_2.bmp" />
+    <Image Include="Images\Spade_3.bmp" />
+    <Image Include="Images\Spade_4.bmp" />
+    <Image Include="Images\Spade_5.bmp" />
+    <Image Include="Images\Spade_6.bmp" />
+    <Image Include="Images\Spade_7.bmp" />
+    <Image Include="Images\Spade_8.bmp" />
+    <Image Include="Images\Spade_9.bmp" />
+    <Image Include="Images\Spade_A.bmp" />
+    <Image Include="Images\Spade_J.bmp" />
+    <Image Include="Images\Spade_K.bmp" />
+    <Image Include="Images\Spade_Q.bmp" />
+    <Image Include="res\base.bmp" />
+    <Image Include="res\icon1.ico" />
+    <Image Include="res\LDAPExplorer.ico" />
+    <Image Include="res\NetChess.ico" />
+    <Image Include="res\NetChessDoc.ico" />
+    <Image Include="res\Toolbar.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NetChess.ini" />
+    <None Include="res\NetChess.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
